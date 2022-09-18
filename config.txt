@@ -1,3 +1,5 @@
+Delete 
+
 
     ["liquorstore"] = {
         [1] = {
@@ -503,3 +505,43 @@ Config.Locations = {
         ["blipsprite"] = 84
     },
 }
+--------------------------------------------------------------------------QB-VEHICLESHOP-------------------------------------------------------------------------------
+This is the set up for the bike shop put this below line 157 in the qb-vehicleshop/config.lua
+
+    ['cycles'] = {
+        ['Type'] = 'free-use', -- no player interaction is required to purchase a car
+        ['Zone'] = {
+            ['Shape'] = {--polygon that surrounds the shop
+                vector2(-1222.43, -1439.49),
+                vector2(-1225.94, -1434.53),
+                vector2(-1221.96, -1431.61),
+                vector2(-1217.68, -1436.47)
+            },
+            ['minZ'] = 2.0, -- min height of the shop zone
+            ['maxZ'] = 5.5, -- max height of the shop zone
+            ['size'] = 4.75 -- size of the vehicles zones
+        },
+        ['Job'] = 'none', -- Name of job or none
+        ['ShopLabel'] = 'Fietsen winkel', -- Blip name
+        ['showBlip'] = false, -- true or false
+        ['blipSprite'] = 326, -- Blip sprite
+        ['blipColor'] = 3, -- Blip color
+        ['Categories'] = {-- Categories available to browse
+               ['cycles'] = 'Bicycles'
+        },
+        ['TestDriveTimeLimit'] = 1.5, -- Time in minutes until the vehicle gets deleted
+        ['Location'] = vector3(-1204.05, -1512.92, 3.37), -- Blip Location
+        ['ReturnLocation'] = vector3(-1212.2, -1439.02, 4.22), -- Location to return vehicle, only enables if the vehicleshop has a job owned
+        ['VehicleSpawn'] = vector4(-1218.59, -1443.74, 4.3, 215.03), -- Spawn location when vehicle is bought
+        ['TestDriveSpawn'] = vector4(-1218.59, -1443.74, 4.3, 215.03), -- Spawn location for test drive
+        ['ShowroomVehicles'] = {
+            [1] = {
+                coords = vector4(-1221.64, -1436.22, 3.37, 272.27), -- where the vehicle will spawn on display
+                defaultVehicle = 'bmx', -- Default display vehicle
+                chosenVehicle = 'bmx', -- Same as default but is dynamically changed when swapping vehicles
+            },
+        },
+    },
+}
+
+    
