@@ -1,0 +1,505 @@
+
+    ["liquorstore"] = {
+        [1] = {
+            name = "beer",
+            price = 7,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "whiskey",
+            price = 10,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "vodka",
+            price = 12,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+        [4] = {
+            name = "wine",
+            price = 15,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 4,
+        },
+    },    
+    ["pharmacy"] = {
+        [1] = {
+            name = "bandage",
+            price = 5,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "painkillers",
+            price = 20,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+    },
+    ["weedshop"] = {
+        [1] = {
+            name = "joint",
+            price = 10,
+            amount = 1000,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "weapon_poolcue",
+            price = 100,
+            amount = 1000,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "weed_nutrition",
+            price = 20,
+            amount = 1000,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+        [4] = {
+            name = "empty_weed_bag",
+            price = 2,
+            amount = 1000,
+            info = {},
+            type = "item",
+            slot = 4,
+        },
+        [5] = {
+            name = "rolling_paper",
+            price = 2,
+            amount = 1000,
+            info = {},
+            type = "item",
+            slot = 5,
+        },
+    },
+    ["coffee"] = {
+        [1] = {
+            name = "coffee",
+            price = 500,
+            amount = 2,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "latte-machiatto",
+            price = 500,
+            amount = 2.50,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "espresso",
+            price = 500,
+            amount = 3,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+        [4] = {
+            name = "creampie",
+            price = 500,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 4,
+        },
+        [5] = {
+            name = "slicedpie",
+            price = 500,
+            amount = 3.50,
+            info = {},
+            type = "item",
+            slot = 5,
+        },
+    },
+    ["masker"] = {
+        [1] = {
+            name = "terror",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "hockeymask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "blackbandana",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+        [4] = {
+            name = "tshirtmask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 4,
+        },
+        [5] = {
+            name = "scarecrowmask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 5,
+        },
+        [6] = {
+            name = "scarf",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 6,
+        },
+        [7] = {
+            name = "monkeymask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 7,
+        },
+        [8] = {
+            name = "skullmask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 8,
+        },
+        [9] = {
+            name = "terrorwit",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 9,
+        },
+        [10] = {
+            name = "feest",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 10,
+        },
+        [11] = {
+            name = "noselong",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 11,
+        },
+        [12] = {
+            name = "blauw",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 12,
+        },
+        [13] = {
+            name = "skullzwart",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 13,
+        },
+        [14] = {
+            name = "silver",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 14,
+        },
+        [15] = {
+            name = "zwart1",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 15,
+        },[16] = {
+            name = "zwart2",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 16,
+        },
+        [17] = {
+            name = "please",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 17,
+        },
+        [18] = {
+            name = "sok",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 18,
+        },
+        [19] = {
+            name = "zak",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 19,
+        },
+        [20] = {
+            name = "groen",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 20,
+        },[21] = {
+            name = "bandanab",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 21,
+        },
+        [22] = {
+            name = "bivak1",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 22,
+        },
+        [23] = {
+            name = "roodc",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 23,
+        },
+        [24] = {
+            name = "clown",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 24,
+        },
+        [25] = {
+            name = "gorilla",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 25,
+        },
+        [26] = {
+            name = "paard",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 26,
+        },
+        [27] = {
+            name = "paardu",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 27,
+        },
+        [28] = {
+            name = "skullr",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 28,
+        },
+        [29] = {
+            name = "masker3",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 29,
+        },
+        [30] = {
+            name = "helm1",
+            price = 1000,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 30,
+        },
+        [31] = {
+            name = "helm2",
+            price = 1000,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 31,
+        },
+        [32] = {
+            name = "helm3",
+            price = 1000,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 32,
+        },
+        [33] = {
+            name = "helm4",
+            price = 1000,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 33,
+        },
+        [34] = {
+            name = "helm5",
+            price = 1000,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 34,
+        }
+    },
+}
+
+Config.Locations = {
+    -- Weedshop Locations
+    ["weedshop"] = {
+        ["label"] = "Coffeeshop",
+        ["coords"] = {
+            [1] = vector4(-1210.5, -1465.59, 4.37, 306.5)
+        },
+        ["ped"] = {
+            ["model"] = 'a_m_y_hippy_01'
+        },
+        ["radius"] = 3.5,
+        ["products"] = Config.Products["weedshop"],
+        ["showblip"] = false,
+        ["blipsprite"] = 140
+    },
+    ["masker"] = {
+        ["label"] = "Masker Shop",
+        ["coords"] = {
+            [1] = vector4(-1218.98, -1430.66, 4.37, 212.74)
+        },
+        ["ped"] = {
+            ["model"] = 'u_m_y_pogo_01'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["masker"],
+        ["showblip"] = false,
+        ["blipsprite"] = 84
+    },
+    ["coffee"] = {
+        ["label"] = "Coffee",
+        ["coords"] = {
+            [1] = vector4(-1216.27, -1467.97, 4.37, 299.96)
+        },
+        ["ped"] = {
+            ["model"] = 'S_M_M_StrVend_01'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["coffee"],
+        ["showblip"] = false,
+        ["blipsprite"] = 84
+    },
+    ["liquorstore"] = {
+        ["label"] = "Liquor store",
+        ["coords"] = {
+            [1] = vector4(-1225.33, -1439.55, 4.37, 118.59)
+        },
+        ["ped"] = {
+            ["model"] = 'S_M_M_StrVend_01'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["liquorstore"],
+        ["showblip"] = false,
+        ["blipsprite"] = 84
+    },
+    ["tech"] = {
+        ["label"] = "DigitalDen",
+        ["coords"] = {
+            [1] = vector4(-1232.18, -1439.78, 4.37, 210.69)
+        },
+        ["ped"] = {
+            ["model"] = 'csb_agent'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["tech"],
+        ["showblip"] = false,
+        ["blipsprite"] = 628
+    },
+    ["tech2"] = {
+        ["label"] = "VB Market street",
+        ["coords"] = {
+            [1] = vector4(-1224.18, -1456.11, -15.34, 123.3)
+        },
+        ["ped"] = {
+            ["model"] = 'csb_agent'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["tech"],
+        ["showblip"] = true,
+        ["blipsprite"] = 628
+    },
+    ["pharmacy"] = {
+        ["label"] = "Pharmacy",
+        ["coords"] = {
+            [1] = vector4(-1198.44, -1460.08, 4.37, 37.26)
+        },
+        ["ped"] = {
+            ["model"] = 's_m_m_doctor_01'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["pharmacy"],
+        ["showblip"] = false,
+        ["blipsprite"] = 84
+    },
+}
