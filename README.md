@@ -4,7 +4,7 @@
 - Not all the shops are done this is a begin 
 ## Showcase
 
-Comming Soon
+- Comming Soon
  
 ## Dependencies
 
