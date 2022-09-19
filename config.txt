@@ -1,5 +1,3 @@
-Delete 
-
 
     ["liquorstore"] = {
         [1] = {
