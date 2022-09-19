@@ -51,6 +51,32 @@
             slot = 2,
         },
     },
+    ["tech"] = {
+        [1] = {
+            name = "phone",
+            price = 850,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 6,
+        },
+        [2] = {
+            name = "radio",
+            price = 250,
+            amount = 50,
+            info = {},
+            type = "item",
+            slot = 7,
+        },
+        [8] = {
+            name = "fitbit",
+            price = 400,
+            amount = 150,
+            info = {},
+            type = "item",
+            slot = 13,
+        },         
+    },
     ["weedshop"] = {
         [1] = {
             name = "joint",
