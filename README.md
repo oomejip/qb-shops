@@ -1,9 +1,7 @@
 ![qb-shops](https://user-images.githubusercontent.com/69800408/190933574-65663cd9-a86b-4e53-9f5c-45559f37879e.png)
 # qb-shops config VB market
-My Gabz shop config 
-
-Not all the shops are done this is a begin 
-
+- My Gabz VB shops config 
+- Not all the shops are done this is a begin 
 ## Showcase
 
 Comming Soon
