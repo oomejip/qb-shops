@@ -373,38 +373,6 @@
             info = {},
             type = "item",
             slot = 30,
-        },
-        [31] = {
-            name = "helm2",
-            price = 1000,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 31,
-        },
-        [32] = {
-            name = "helm3",
-            price = 1000,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 32,
-        },
-        [33] = {
-            name = "helm4",
-            price = 1000,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 33,
-        },
-        [34] = {
-            name = "helm5",
-            price = 1000,
-            amount = 10,
-            info = {},
-            type = "item",
-            slot = 34,
         }
     },
 }
